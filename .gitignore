@@ -1,0 +1,29 @@
+# Build output
+build/
+bin/
+
+# IDE
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.vscode/*.*
+!.vscode/settings.json
+!.vscode/launch.json
+
+# Simulation GUI logs
+networktables.json
+simgui*.json
+*.wpilog
+
+# Gradle
+.gradle/
+.gradle-home/
+local.properties
+
+# Vendordep downloads cache
+vendordeps/*.zip
+
+# macOS
+.DS_Store

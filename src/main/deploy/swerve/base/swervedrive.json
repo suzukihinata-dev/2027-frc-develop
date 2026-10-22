@@ -1,0 +1,16 @@
+{
+  "$schema": "https://config.yagsl.com/schemas/swervedrive.json",
+  "gyro": {
+    "type": "custom",
+    "id": 0,
+    "canbus": ""
+  },
+  "gyroAxis": "yaw",
+  "gyroInvert": false,
+  "modules": [
+    "frontleft.json",
+    "frontright.json",
+    "backleft.json",
+    "backright.json"
+  ]
+}
